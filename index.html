@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Character Set -->
+	<meta charset="utf-8">
+	<!-- Media Queries -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Title -->
+	<title>Pokemon Stats API</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row text-center">
+		  <div class="col-sm-3">
+		  	<h1>Pokemon Search 1</h1>
+		  	<!-- user input -->
+		    <input id="search1" placeholder="Title or Author" autofocus/>
+		    <br><br>
+		  	<h1>Pokemon Search 2</h1>
+		  	<!-- user input -->
+		    <input id="search2" placeholder="Title or Author" autofocus/>
+		    <br><br>
+		    <!-- user submit -->
+			<button id="searchBtn" class="btn btn-primary btn-lg btn-block">SEARCH</button>
+		  </div>
+		</div>
+		<hr />
+		<div class="row text-center">
+		  <div class="col-sm-6">
+		    <!-- display results -->
+		    <div id="results1"></div>
+			</div>
+		  <div class="col-sm-6">
+		    <!-- display results -->
+		    <div id="results2"></div>
+		  </div>
+		</div>
+	</div>
+
+	<!-- custom JavaScript -->
+	<script src="js/main.js"></script>
+</body>
+</html>
